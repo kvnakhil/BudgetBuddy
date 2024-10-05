@@ -15,6 +15,7 @@ class MainActivity1 : AppCompatActivity() {
     lateinit var usernameInput :EditText
     lateinit var passwordInput :EditText
     lateinit var loginBtn: Button
+    lateinit var signupBtn:Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,12 +25,12 @@ class MainActivity1 : AppCompatActivity() {
         usernameInput= findViewById(R.id.username_input)
         passwordInput=findViewById(R.id.password_input)
         loginBtn=findViewById(R.id.login_btn)
+        signupBtn=findViewById(R.id.signup_btn)
 
         loginBtn.setOnClickListener {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
             Log.i( "Test Credentials", "Username: $username and Password = $password")
-
 
 
         }
