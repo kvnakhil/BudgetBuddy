@@ -71,6 +71,16 @@
           android:textSize="70sp"
           android:id="@+id/login_btn"/>
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="forgot passwrod?"
+            android:textAppearance="@color/material_dynamic_neutral60"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
         <EditText
             android:layout_width="match_parent"
