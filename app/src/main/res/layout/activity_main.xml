@@ -9,8 +9,6 @@
     android:padding="16dp"
     tools:context=".MainActivity2">
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +20,16 @@
             android:layout_height="400dp"
             android:src="@drawable/baseline_account_circle_24"/>
 
-
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="BUDGET BUDDY"
+            android:textAppearance="@color/material_dynamic_neutral60"
+            android:textColor="#74BF1D"
+            android:textSize="100sp"
+            android:textStyle="bold" />
 
 
     <EditText
@@ -32,8 +39,8 @@
         android:layout_marginTop="16dp"
         android:hint="Username"
         android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textSize="100sp"
+        android:textColorHint="@color/black"
+        android:textSize="50sp"
         android:background="@drawable/rounded_corner"
         android:padding="18dp"
         android:inputType="text"
@@ -46,13 +53,49 @@
         android:layout_marginTop="16dp"
         android:hint="Password"
         android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textSize="100sp"
+        android:textColorHint="@color/black"
+        android:textSize="50sp"
         android:background="@drawable/rounded_corner"
         android:padding="18dp"
         android:inputType="textPassword"
         android:id="@+id/password_input"/>
 
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Login"
+          android:backgroundTint="#021145"
+          android:textColor="@color/white"
+          android:padding="18dp"
+          android:layout_marginTop="32dp"
+          android:textSize="70sp"
+          android:id="@+id/login_btn"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:hint="or Sign up to get started"
+            android:textAppearance="@color/material_dynamic_neutral60"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:backgroundTint="@color/teal_100"
+            android:textColor="@color/white"
+            android:padding="18dp"
+            android:layout_marginTop="32dp"
+            android:textSize="70sp"
+            android:id="@+id/signup_btn"/>
 
     </LinearLayout>
 </RelativeLayout>
