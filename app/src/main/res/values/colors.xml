@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple">#FFBB86FC</color>
+    <color name="purpl_100">#FF6200EE</color>
+    <color name="purple_200">#FF3700B3</color>
+    <color name="teal">#FF03DAC5</color>
+    <color name="teal_100">#FF018786</color>
+
+    <color name="app_theme">#009DFF</color>
+    <color name="app_theme_light">#F6FBFF</color>
+    <color name="edit_text_background">#F6FBFF</color>
+    <color name="edit_text_border">#03A9F4</color>
+
+</resources>
