@@ -1,10 +1,8 @@
-package com.example.myapplication;
+package com.example.budgetbuddy;
 
 import android.content.Intent;
-
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.Button;
 import android.widget.TextView;
 
