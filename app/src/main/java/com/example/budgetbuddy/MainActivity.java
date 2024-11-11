@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
 
         imageView=findViewById(R.id.BudgetBuddy_image);
         textView1=findViewById(R.id.BudgetBuddy_text1);
-        textView2=findViewById(R.id.BudgetBuddy_text2);
 
         top=AnimationUtils.loadAnimation(this,R.anim.splash_top);
         bottom=AnimationUtils.loadAnimation(this,R.anim.splash_bottom);
