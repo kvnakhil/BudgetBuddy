@@ -295,7 +295,8 @@ public class DashboardFragment extends Fragment {
 
         return myview;
     }
-
+    String strBalance=String.valueOf(balance);
+                totalBalanceResult.setText(strBalance+".00");
     private void ftAnimation(){
         if(isOpen){
             fab_main.startAnimation(Rof);
