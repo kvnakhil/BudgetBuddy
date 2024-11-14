@@ -36,6 +36,7 @@ public class income2 extends AppCompatActivity {
         T3=findViewById(R.id.t3);
         T4=findViewById(R.id.t4);
         T5=findViewById(R.id.t5);
+        T6=findViewById(R.id.t6);
 
 
         tx1=findViewById(R.id.text3);
