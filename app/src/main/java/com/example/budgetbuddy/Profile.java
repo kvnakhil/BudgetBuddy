@@ -45,6 +45,9 @@ public class Profile extends AppCompatActivity {
                 String userEmail = dataSnapshot.child("Email").getValue().toString();
                 TextView email=findViewById(R.id.email_profile);
                 email.setText(userEmail);
+                String userEmail = dataSnapshot.child("Email").getValue().toString();
+                TextView email=findViewById(R.id.email_profile);
+                email.setText(userEmail);
             }
 
             @Override
