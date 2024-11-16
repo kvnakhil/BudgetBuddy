@@ -59,10 +59,7 @@ public class Profile extends AppCompatActivity {
         deleteaccount=findViewById(R.id.btn_deleteaccount);
 
         changepass.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Profile.this,change_password.class);
-                startActivity(intent);
+      
             }
         });
 
