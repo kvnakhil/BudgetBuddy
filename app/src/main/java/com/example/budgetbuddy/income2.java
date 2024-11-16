@@ -88,7 +88,7 @@ public class income2 extends AppCompatActivity {
     {
         Intent i=new Intent(income2.this,NextIncome.class);
         i.putExtra("baseincome",bs.getText().toString());
-        
+
         startActivity(i);
 
     }
