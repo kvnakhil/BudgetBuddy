@@ -59,7 +59,7 @@ public class Profile extends AppCompatActivity {
         deleteaccount=findViewById(R.id.btn_deleteaccount);
 
         changepass.setOnClickListener(new View.OnClickListener() {
-      
+
             }
         });
 
@@ -88,6 +88,20 @@ public class Profile extends AppCompatActivity {
                                 {
                                     Toast.makeText(Profile.this,task.getException().getMessage(),Toast.LENGTH_LONG).show();
                                 }
+                                @Override
+                                public void onComplete(@NonNull Task<Void> task) {
+                                    if(task.isSuccessful())
+                                    {
+                                        Toast.makeText(Profile.this,"Account Deleted Successfully..",Toast.LENGTH_LONG).show();
+                                        Intent intent=new Intent(Profile.this,home_screen.class);
+                                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                        startActivity(intent);
+                                    }
+                                    else
+                                    {
+                                        Toast.makeText(Profile.this,task.getException().getMessage(),Toast.LENGTH_LONG).show();
+                                    }
                             }
                         });
                     }
