@@ -25,6 +25,11 @@ public class Finalinc extends AppCompatActivity {
                 Intent i=new Intent(Finalinc.this,first_home_page.class);
                 startActivity(i);
             }
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Finalinc.this,first_home_page.class);
+                startActivity(i);
+            }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
